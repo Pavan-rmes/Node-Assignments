@@ -16,6 +16,9 @@ app.listen(9000,()=>console.log(`Server listening on port ${process.env.PORT}`))
 //     return client;
 // }
 
+app.get("/",(req,res)=>{
+    res.send("hello")
+})
 app.use("/files",fileRoute)
 
 // export const client  = await createConnection()
