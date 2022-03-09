@@ -1,4 +1,3 @@
-import {client} from "../index.js"
 import fs from "fs"
 
 function getAllFiles(){
