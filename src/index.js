@@ -17,7 +17,7 @@ app.listen(process.env.PORT,()=>console.log(`Server listening on port ${process.
 // }
 
 app.get("/",(req,res)=>{
-    res.send("hello")
+    res.send("hello you can refer this link for documentation https://documenter.getpostman.com/view/17248871/UVsFxTUv")
 })
 app.use("/files",fileRoute)
 
